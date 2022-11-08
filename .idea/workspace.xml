@@ -88,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667915784436</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="uff prawie koniec">
+      <created>1667922026669</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667922026669</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -106,6 +113,7 @@
     <MESSAGE value="Graf druzynaa" />
     <MESSAGE value="Graf druzynaaa" />
     <MESSAGE value="Graf druzynaaa omg" />
-    <option name="LAST_COMMIT_MESSAGE" value="Graf druzynaaa omg" />
+    <MESSAGE value="uff prawie koniec" />
+    <option name="LAST_COMMIT_MESSAGE" value="uff prawie koniec" />
   </component>
 </project>

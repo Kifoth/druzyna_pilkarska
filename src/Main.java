@@ -19,6 +19,9 @@ public class Main {
 
         Zawodnik user6 = new Zawodnik("Karim", "Benzema");
 
+        for (Pozycja  p: Pozycja.values()){
+            System.out.println(p); }
+
         System.out.println(user.toString());
         System.out.println(user1.toString());
         System.out.println(user2.toString());
@@ -26,6 +29,7 @@ public class Main {
         System.out.println(user4.toString());
         System.out.println(user5.toString());
         System.out.println(user6.toString());
+
     }
 
 }

@@ -1,5 +1,6 @@
 public class osoba {
 
+
     private String imie;
     private String nazwisko;
     private int licencja;

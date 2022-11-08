@@ -6,13 +6,18 @@ public class osoba {
     private int licencja;
     private String specjalizacja;
 
+    public osoba(String imie, String nazwisko, int licencja, String specjalizacja) {
+        this.imie = imie;
+        this.nazwisko = nazwisko;
+        this.licencja = licencja;
+
+    }
+
     public osoba(String imie, String nazwisko, int licencja) {
         this.imie = imie;
         this.nazwisko = nazwisko;
         this.licencja = licencja;
-        this.specjalizacja = specjalizacja;
     }
-
 
     public String getImie() {
         return imie;
@@ -42,6 +47,9 @@ public class osoba {
         return specjalizacja;
     }
 
+    public void setSpecjalizacja(String specjalizacja) {
+        this.specjalizacja = specjalizacja;
+    }
 
     @Override
     public String toString() {
@@ -51,7 +59,5 @@ public class osoba {
                 ", licencja=" + licencja +
                 ", specjalizacja='" + specjalizacja + '\'' +
                 '}';
-
-
     }
 }

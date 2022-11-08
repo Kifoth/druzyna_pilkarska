@@ -7,7 +7,7 @@ public class Trener extends osoba {
     }
 
     public String toString() {
-        return "Imie " + super.getImie() + "nazwisko" + super.getNazwisko() + "Numer Licencji" + super.getLicencja();
+        return "imie= " + super.getImie() + " nazwisko= " + super.getNazwisko() +  "Numer Licencji= " + super.getLicencja();
 
     }
 

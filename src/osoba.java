@@ -10,13 +10,18 @@ public class osoba {
         this.imie = imie;
         this.nazwisko = nazwisko;
         this.licencja = licencja;
-
+        this.specjalizacja = specjalizacja;
     }
 
     public osoba(String imie, String nazwisko, int licencja) {
         this.imie = imie;
         this.nazwisko = nazwisko;
         this.licencja = licencja;
+    }
+
+    public osoba(String imie, String nazwisko) {
+        this.imie = imie;
+        this.nazwisko = nazwisko;
     }
 
     public String getImie() {
